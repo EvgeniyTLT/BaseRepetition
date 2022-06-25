@@ -6,5 +6,11 @@ public class Main {
         System.out.println(airplane.getFuel());
         airplane.fillUp(100);
         System.out.println(airplane.getFuel());
+        airplane.fillUp(800);
+        System.out.println(airplane.getFuel());
+        airplane.fillUp(500);
+        System.out.println(airplane.getFuel());
+        airplane.fillUp(500);
+        System.out.println(airplane.getFuel());
     }
 }

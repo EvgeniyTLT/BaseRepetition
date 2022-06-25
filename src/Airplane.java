@@ -10,6 +10,10 @@ public class Airplane {
     }
 
     public void fillUp(int addFuel){
+        if (getFuel()+addFuel>=1000){
+            System.out.println("бак полный");
+            setFuel(1000);
+        } else
         setFuel(getFuel()+addFuel);
     }
 }
