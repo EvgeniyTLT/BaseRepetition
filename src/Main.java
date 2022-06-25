@@ -8,8 +8,9 @@ public class Main {
         for (int i = 0; i < x; i++) {
             array[i] = (int) (Math.random() * 10);
         }
+
         for (int u : array) {
-            
+            System.out.println(u);
         }
 
     }
