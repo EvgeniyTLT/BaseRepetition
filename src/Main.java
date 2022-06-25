@@ -2,15 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Airplane airplane = new Airplane();
-        System.out.println(airplane.getFuel());
-        airplane.fillUp(100);
-        System.out.println(airplane.getFuel());
-        airplane.fillUp(800);
-        System.out.println(airplane.getFuel());
-        airplane.fillUp(500);
-        System.out.println(airplane.getFuel());
-        airplane.fillUp(500);
-        System.out.println(airplane.getFuel());
+       Student student = new Student("Nick");
+       Teacher teacher = new Teacher("Bob Petrovich", "Math");
+       teacher.evaluate(student);
     }
 }
