@@ -2,19 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Player player1 = new Player("1", 90);
-        Player player2 = new Player("2", 90);
-        Player player3 = new Player("3", 90);
-        Player player4 = new Player("4", 90);
-        Player player5 = new Player("5", 90);
-        Player player6 = new Player("6", 90);
-        Player player7 = new Player("7", 90);
-        Player player8 = new Player("8", 90);
-        System.out.println(Player.countPlayers);
-
-        for (int i = 0; i < 100; i++) {
-            player1.run();
+        long after = System.currentTimeMillis();
+        StringBuilder stringBuilder = new StringBuilder("PO");
+        for (int i = 0; i < 1000000; i++) {
+            stringBuilder.append("PO");
         }
-        System.out.println(Player.countPlayers);
+        long before = System.currentTimeMillis();
+        System.out.println(before-after);
+        System.out.println(stringBuilder);
     }
 }
