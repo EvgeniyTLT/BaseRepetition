@@ -19,7 +19,6 @@ public class Main {
         players2.add("CCCC");
         players2.add("FFFF");
         players2.add("GGGG");
-
         musicBand1.printMembers();
         System.out.println();
         musicBand2.printMembers();
