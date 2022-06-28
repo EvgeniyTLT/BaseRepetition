@@ -36,7 +36,6 @@ public class Main {
             if (u.getYear() >= 2000) {
                 groupsAfter2000.add(u);
             }
-
         }
         return bands = groupsAfter2000;
     }
