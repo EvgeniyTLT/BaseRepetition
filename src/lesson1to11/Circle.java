@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class Circle extends Figure {
     private int r;
 

@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class Warehouse {
     private int countOrder;
     private int balance;
@@ -25,7 +27,7 @@ public class Warehouse {
 
     @Override
     public String toString() {
-        return "Warehouse{" +
+        return "Lesson1.Warehouse{" +
                 "countOrder=" + countOrder +
                 ", balance=" + balance +
                 '}';

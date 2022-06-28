@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class TestWarehouse {
     public static void main(String[] args) {
         Warehouse warehouse = new Warehouse(0, 0);

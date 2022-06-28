@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class Player {
     private String name;
     private int stamina;

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package lesson1to11;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class TestFigures {
     public static void main(String[] args) {
         Figure[] figures = {

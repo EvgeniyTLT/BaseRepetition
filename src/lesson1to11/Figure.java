@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public abstract class Figure {
     private String color;
 

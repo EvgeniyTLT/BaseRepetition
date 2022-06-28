@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class Triangle extends Figure {
     private double lengthA;
     private double lengthB;

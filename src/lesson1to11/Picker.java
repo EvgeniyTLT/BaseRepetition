@@ -1,3 +1,5 @@
+package lesson1to11;
+
 public class Picker implements Worker {
     private int salary;
     private int allSalary = 0;
