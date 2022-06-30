@@ -43,19 +43,17 @@ public class User {
             if (u.getUsername().equals(user.getUsername())) {
                 return true;
             }
-            return false;
         }
-
-        public boolean isFriend (User user){
-            if (isSubscribed(user) && user.isSubscribed(this)) {
-                return true;
-            }
-            return false;
-        }
-
-        public void sendMessage (User user, String text){
-            MessageDatabase.sendMessage(this, user, text);
-        }
-
-
+        return false;
     }
+
+    public boolean isFriend(User user) {
+        return this.isSubscribed(user) && user.isSubscribed(this);
+    }
+
+    public void sendMessage(User user, String text) {
+        MessageDatabase.sendMessage(this, user, text);
+    }
+
+
+}
