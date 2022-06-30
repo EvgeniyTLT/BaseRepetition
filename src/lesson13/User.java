@@ -30,10 +30,8 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", subscriptions=" + subscriptions +
-                '}';
+        return
+                "username:" + username;
     }
 
     public void subscribe(User user) {
@@ -55,4 +53,7 @@ public class User {
         }
         return false;
     }
+//    public void sendMessage(User user, String text)
+
+
 }
