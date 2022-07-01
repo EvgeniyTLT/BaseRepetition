@@ -23,6 +23,7 @@ public class Main {
                 String line = scanner.nextLine();
                 String[] person = line.split(" ");
                 if (Integer.parseInt(person[1]) <= 0) throw new IllegalArgumentException();
+
                 people.add(line);
             }
             return people;
