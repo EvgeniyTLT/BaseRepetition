@@ -1,11 +1,11 @@
-package lesson14;
+package lesson14.task1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class MainTask1 {
+public class Main {
     public static void main(String[] args) {
         File file = new File("HiMen.txt");
         try {
