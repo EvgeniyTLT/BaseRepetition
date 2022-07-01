@@ -16,9 +16,9 @@ public class Main {
     public static List<String> parseFileToStringList() {
         File file = new File("people.txt");
         List<String> people = new ArrayList<>();
-        Scanner scanner = null;
+
         try {
-            scanner = new Scanner(file);
+            Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] person = line.split(" ");
