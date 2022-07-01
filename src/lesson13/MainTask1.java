@@ -7,6 +7,7 @@ public class MainTask1 {
         user1.sendMessage(user2, "Hello BBB");
         user1.sendMessage(user2, "How are you?");
         user2.sendMessage(user1, "Bay");
+        user2.sendMessage(user1, "Not Bay");
 
         MessageDatabase.showDialog(user1, user2);
 
