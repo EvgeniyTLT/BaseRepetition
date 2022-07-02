@@ -21,15 +21,16 @@ public class People {
         return year;
     }
 
-    public void setYear(int year) {
-        this.year = year;
-    }
-
     @Override
     public String toString() {
-        return "People{" +
+        return "{" +
                 "name='" + name + '\'' +
                 ", year=" + year +
                 '}';
     }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 }
