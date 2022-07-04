@@ -1,4 +1,4 @@
-package lesson17;
+package lesson17.task1;
 
 public enum ChessPiece {
     KING_WHITE(100, "♔"), KING_BLACK(100, "♚"), QUEEN_WHITE(9, "♕"), QUEEN_BLACK(9, "♛"),
