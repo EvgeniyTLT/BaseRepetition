@@ -1,17 +1,18 @@
 package lesson17;
 
 public enum ChessPiece {
-    KING_WHITE, KING_BLACK, QUEEN_WHITE, QUEEN_BLACK, ROOK_WHITE, ROOK_BLACK, BISHOP_WRITE, BISHOP_BLACK,
-    KNIGHT_WRITE, KNIGHT_BLACK;
-    private int level;
+    KING_WHITE(100, "♔"), KING_BLACK(100, "♚"), QUEEN_WHITE(9, "♕"), QUEEN_BLACK(9, "♛"),
+    ROOK_WHITE(5, "♖"), ROOK_BLACK(5, "♜"), BISHOP_WRITE(3.5, "♗"), BISHOP_BLACK(3.5, "♝"),
+    KNIGHT_WRITE(3, "♘"), KNIGHT_BLACK(3, "♞"), PAWN_WRITE(1, "♙"), PAWN_BLACK(1, "♟");
+    private double level;
     private String name;
 
-    ChessPiece(int level, String name) {
+    ChessPiece(double level, String name) {
         this.level = level;
         this.name = name;
     }
 
-    public int getLevel() {
+    public double getLevel() {
         return level;
     }
 
