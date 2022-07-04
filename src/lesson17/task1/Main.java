@@ -1,5 +1,7 @@
 package lesson17.task1;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         ChessPiece[] chessPieces = new ChessPiece[8];
@@ -13,6 +15,7 @@ public class Main {
         ) {
             System.out.print(u.getName());
         }
+
     }
 }
 
