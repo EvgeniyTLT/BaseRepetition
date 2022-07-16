@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        ExecutorService executorService = Executors.newFixedThreadPool('2');
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
         for (int i = 0; i < 5; i++)
             executorService.submit(new Work(i));
         executorService.shutdown();
