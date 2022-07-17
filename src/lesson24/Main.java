@@ -69,7 +69,7 @@ class ProduseConsumer {
                 System.out.println("Size: " + queue.size());
                 lock.notify();
             }
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }
     }
 }
