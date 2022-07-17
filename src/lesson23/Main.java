@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-
         WeitAndNotify wn = new WeitAndNotify();
         Thread thread1 = new Thread(new Runnable() {
             @Override
@@ -17,7 +15,6 @@ public class Main {
                 }
             }
         });
-
         Thread thread2 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -60,6 +57,5 @@ class WeitAndNotify {
             lock.notify();
             Thread.sleep(5000);
         }
-
     }
 }
