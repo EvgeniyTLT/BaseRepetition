@@ -1,8 +1,6 @@
 package lesson29;
 
-import javax.sound.midi.Soundbank;
 import java.util.Random;
-import java.util.SortedMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,17 +20,14 @@ public class Main {
         });
         System.out.println("Start");
         thread.start();
-
         try {
-            Thread.sleep(4000);
+            Thread.sleep(500);
             thread.interrupt();
             thread.join();
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        thread.stop();
         System.out.println("Finish");
     }
-
 }
